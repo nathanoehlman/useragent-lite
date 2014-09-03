@@ -1,0 +1,35 @@
+{
+  "name": "useragent-lite",
+  "description": "Light-weight user-agent analyzer for Node.js",
+  "version": "0.0.0",
+  "homepage": "http://mflorence99.github.io/useragent-lite/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mflorence99/useragent-lite.git"
+  },
+  "author":     {
+      "name": "Mark Florence",
+      "email" : "mflo999@gmail.com",
+      "url": "http://mflorence99.github.io/"
+    },
+  "keywords": [
+    "useragent",
+    "express",
+    "middleware"
+  ],
+  "main": "./index.js",
+  "directories": {
+    "lib": "lib",
+    "tests": "tests"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": ">= 0.5.4"
+  },
+  "scripts": {
+    "test": "nodeunit tests/full.js"
+  }
+}
