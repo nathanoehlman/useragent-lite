@@ -43,4 +43,4 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Resources
 
 - Visit the [author website](http://mflo.info).
-- Follow [@biggora](https://twitter.com/#!/mflo999) on Twitter for updates.
+- Follow [@mflo999](https://twitter.com/#!/mflo999) on Twitter for updates.
