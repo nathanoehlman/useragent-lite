@@ -9,6 +9,32 @@ I simply wanted to be able to determine:
 No prizes for this code! The other objective was to get my feet wet with GitHub with a simple starter project that certainly only I will ever use.
 
 
+## Usage
+```javascript
+var ua = require("useragent-lite");
+...
+ua(req.headers["user-agent"]) ==> {
+  // I use these just for logging
+  browser: "...",
+  platform: "...",
+  device: "...",
+  // the browser
+  isChrome: [boolean],
+  isFirefox: [boolean],
+  isIE: [boolean],
+  isOpera: [boolean],
+  isSafari: [boolean],
+  isUnknown: [boolean],
+  // the browser version
+  version: [integer, no subversions],
+  // the platform
+  isDesktop: [boolean],
+  isPhone: [boolean],
+  isTablet: [boolean]
+};
+```
+
+
 ## Author
 
 Mark Florence (mflo999@gmail.com).

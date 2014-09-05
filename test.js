@@ -9,4 +9,7 @@
  *
  */
 
-module.exports = require("lib/useragent-lite");
+// run tests bypassing nodeunit cmd line
+
+ var reporter = require("nodeunit").reporters.default;
+ reporter.run(["tests/full.js"]);
