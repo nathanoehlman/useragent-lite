@@ -6,7 +6,7 @@ I simply wanted to be able to determine:
 * Browser version (mainly to eliminate IE8 and earlier)
 * Platform (mobile, tablet, desktop)
 
-No prizes for this code! The other objective was to get my feet wet with GitHub with a simple start project that certainly only I will ever use.
+No prizes for this code! The other objective was to get my feet wet with GitHub with a simple starter project that certainly only I will ever use.
 
 
 ## Author
