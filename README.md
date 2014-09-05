@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/mflorence99/useragent-lite.png)](http://travis-ci.org/mflorence99/useragent-lite)
+
 # Light-weight user-agent analyzer for [NodeJS](http://nodejs.org/)
 
 I simply wanted to be able to determine:
