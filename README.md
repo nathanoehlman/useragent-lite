@@ -1,6 +1,4 @@
-[![build status](https://secure.travis-ci.org/mflorence99/useragent-lite.png)](http://travis-ci.org/mflorence99/useragent-lite)
-
-# Light-weight user-agent analyzer for [NodeJS](http://nodejs.org/)
+# Light-weight user-agent analyzer for [NodeJS](http://nodejs.org/) [![build status](https://secure.travis-ci.org/mflorence99/useragent-lite.png)](http://travis-ci.org/mflorence99/useragent-lite) [![NPM version](https://badge.fury.io/js/useragent-lite.png)](http://badge.fury.io/js/useragent-lite)
 
 I simply wanted to be able to determine:
 
@@ -8,7 +6,7 @@ I simply wanted to be able to determine:
 * Browser version (mainly to eliminate IE8 and earlier)
 * Platform (mobile, tablet, desktop)
 
-No prizes for this code! The other objective was to get my feet wet with GitHub with a simple starter project that certainly only I will ever use.
+The other objective was to get my feet wet with GitHub with a simple starter project that certainly only I will ever use.
 
 
 ## Usage
