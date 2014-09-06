@@ -9,6 +9,13 @@ I simply wanted to be able to determine:
 The other objective was to get my feet wet with GitHub with a simple starter project that certainly only I will ever use.
 
 
+## Installation
+
+Installation is done using the Node Package Manager (npm). If you don't have npm installed on your system you can download it from [npmjs.org](http://npmjs.org/). To install useragent-lite into your project directory:
+
+    $ npm install useragent-lite --save
+
+
 ## Usage
 ```javascript
 var ua = require("useragent-lite");
