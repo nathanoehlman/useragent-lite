@@ -9,4 +9,4 @@
  *
  */
 
-module.exports = require("lib/useragent-lite");
+module.exports = require("./lib/useragent-lite");
