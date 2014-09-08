@@ -1,7 +1,7 @@
 {
   "name": "useragent-lite",
   "description": "Light-weight user-agent analyzer for Node.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "http://mflorence99.github.io/useragent-lite/",
   "repository": {
     "type": "git",
