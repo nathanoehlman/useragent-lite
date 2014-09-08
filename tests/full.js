@@ -1,7 +1,7 @@
 /**
  *
  * @package     useragent-lite
- * @version     0.0.0
+ * @version     0.0.1
  * @copyright   Copyright (c) 2014 - All rights reserved.
  * @license     MIT License
  * @author      Mark Florence <mflo999@gmail.com>
@@ -391,6 +391,16 @@ exports["Sony Xperia Sola, U"] = function(test) {
 
 exports["Sony Xperia Z, Z1"] = function(test) {
   var s = "Mozilla/5.0 (Linux; U; Android 4.2; en-us; SonyC6903 Build/14.1.G.1.518) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30";
+  var a = ua(s);
+  test.ok(a.isPhone, "Phone");
+  test.ok(!a.isTablet, "! Tablet");
+  test.done();
+};
+
+// additional tests
+
+exports["Firefox OS"] = function(test) {
+  var s = "Mozilla/5.0 (Mobile; rv:28.0) Gecko/28.0 Firefox/28.0";
   var a = ua(s);
   test.ok(a.isPhone, "Phone");
   test.ok(!a.isTablet, "! Tablet");
