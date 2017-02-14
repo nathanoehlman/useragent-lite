@@ -58,6 +58,15 @@ exports["Desktop Opera 12"] = function(test) {
   test.done();
 };
 
+exports["Desktop Edge 12"] = function(test) {
+  var s = "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10136";
+  var a = ua(s);
+  test.ok(a.isDesktop, "Desktop");
+  test.ok(a.isEdge, "Edge");
+  test.equal(a.version, 12, "version == 12");
+  test.done();
+};
+
 exports["Tablet Safari 6"] = function(test) {
   var s = "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25";
   var a = ua(s);
