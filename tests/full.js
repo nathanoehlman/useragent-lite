@@ -67,6 +67,15 @@ exports["Desktop Edge 12"] = function(test) {
   test.done();
 };
 
+exports["Desktop Chromium Edge 80"] = function(test) {
+  var s = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66";
+  var a = ua(s);
+  test.ok(a.isDesktop, "Desktop");
+  test.ok(a.isEdge, "Edge");
+  test.equal(a.version, 80, "version == 80");
+  test.done();
+};
+
 exports["Tablet Safari 6"] = function(test) {
   var s = "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25";
   var a = ua(s);
